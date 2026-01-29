@@ -11,3 +11,7 @@ __pycache__/
 # IDEs
 .vscode/
 .idea/
+
+# Archivos temporales de Microsoft Office
+~$*.docx
+
