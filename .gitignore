@@ -12,6 +12,18 @@ __pycache__/
 .vscode/
 .idea/
 
-# Archivos temporales de Microsoft Office
+# Archivos temporales de Office
 ~$*.docx
+*.tmp
 
+# Django
+# db.sqlite3
+__pycache__/
+*.pyc
+
+# Obsidian (configuración local)
+.obsidian/
+
+# SO / Editor
+.DS_Store
+Thumbs.db

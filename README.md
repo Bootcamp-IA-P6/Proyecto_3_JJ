@@ -436,3 +436,71 @@ o la automatización de releases y tags
 Dime cómo continuamos.
 
 https://github.com/Jose-JulioRamirezySanchez-Escobar/webscraper.git
+
+```bash output
+Coder@F5-LAPMAD-124 MINGW64 ~/Proyectos/webscraper (master)
+$ git add .
+git commit -m "Estado inicial del proyecto webscraper"
+warning: in the working copy of 'webscraper_project/scraper/models.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/core-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'webscraper_project/.obsidian/core-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'webscraper_project/.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'webscraper_project/scraper/management/commands/scraper.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'webscraper_project/scraper/services/scrape.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'webscraper_project/scraper/services/scrape_ChatGPT_Corregido.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'webscraper_project/scraper/services/scrape_inline.py', LF will be replaced by CRLF the next time Git touches it
+[master 129be74] Estado inicial del proyecto webscraper
+ 21 files changed, 1122 insertions(+)
+ create mode 100644 .obsidian/app.json
+ create mode 100644 .obsidian/appearance.json
+ create mode 100644 .obsidian/core-plugins.json
+ create mode 100644 .obsidian/workspace.json
+ create mode 100644 README.md
+ create mode 100644 docs/~WRL0977.tmp
+ create mode 100644 webscraper_project/.obsidian/app.json
+ create mode 100644 webscraper_project/.obsidian/appearance.json
+ create mode 100644 webscraper_project/.obsidian/core-plugins.json
+ create mode 100644 webscraper_project/.obsidian/workspace.json
+ create mode 100644 webscraper_project/db.sqlite3
+ create mode 100644 webscraper_project/scraper/management/__init__.py
+ create mode 100644 webscraper_project/scraper/management/commands/__init__.py
+ create mode 100644 webscraper_project/scraper/management/commands/scraper.py
+ create mode 100644 webscraper_project/scraper/migrations/0001_initial.py
+ create mode 100644 webscraper_project/scraper/services/__init__.py
+ create mode 100644 webscraper_project/scraper/services/scrape.py
+ create mode 100644 webscraper_project/scraper/services/scrape_ChatGPT_Corregido.py
+ create mode 100644 webscraper_project/scraper/services/scrape_inline.py
+(.venv)
+Coder@F5-LAPMAD-124 MINGW64 ~/Proyectos/webscraper (master)
+$ git checkout -b develop
+Switched to a new branch 'develop'
+(.venv)
+Coder@F5-LAPMAD-124 MINGW64 ~/Proyectos/webscraper (develop)
+$ ls -l
+total 32
+-rw-r--r-- 1 Coder 197121 16700 Jan 31 05:18 README.md
+drwxr-xr-x 1 Coder 197121     0 Jan 31 05:12 docs/
+-rw-r--r-- 1 Coder 197121   646 Jan 29 12:57 requirements.txt
+drwxr-xr-x 1 Coder 197121     0 Jan 30 06:47 webscraper_project/
+(.venv)
+Coder@F5-LAPMAD-124 MINGW64 ~/Proyectos/webscraper (develop)
+$ git remote add origin https://github.com/Jose-JulioRamirezySanchez-Escobar/webscraper.git
+(.venv)
+Coder@F5-LAPMAD-124 MINGW64 ~/Proyectos/webscraper (develop)
+$ git push -u origin develop
+Enumerating objects: 59, done.
+Counting objects: 100% (59/59), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (56/56), done.
+Writing objects: 100% (59/59), 1.35 MiB | 1.81 MiB/s, done.
+Total 59 (delta 14), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (14/14), done.
+To https://github.com/Jose-JulioRamirezySanchez-Escobar/webscraper.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'.
+(.venv)
+Coder@F5-LAPMAD-124 MINGW64 ~/Proyectos/webscraper (develop)
+$
+```
