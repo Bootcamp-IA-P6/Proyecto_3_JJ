@@ -22,7 +22,7 @@ __pycache__/
 *.pyc
 
 # Obsidian (configuración local)
-.obsidian/*
+.obsidian/
 
 # SO / Editor
 .DS_Store

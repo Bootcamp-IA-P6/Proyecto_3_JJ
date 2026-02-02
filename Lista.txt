@@ -1,5 +1,4 @@
 ./requirements.txt
-./webscraper_project/manage.py
 ./webscraper_project/scraper/__init__.py
 ./webscraper_project/scraper/admin.py
 ./webscraper_project/scraper/apps.py
@@ -20,3 +19,4 @@
 ./webscraper_project/webscraper_project/settings.py
 ./webscraper_project/webscraper_project/urls.py
 ./webscraper_project/webscraper_project/wsgi.py
+./webscraper_project/manage.py

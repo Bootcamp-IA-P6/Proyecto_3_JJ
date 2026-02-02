@@ -1,3 +1,7 @@
+```bash
+git clone https://github.com/Bootcamp-IA-P6/Proyecto_3_JJ.git
+```
+
 **Introducción**
 
 **Generador Automatizado de Documentación de Código: Un Flujo de Trabajo Integral**
@@ -87,7 +91,7 @@ find . \
   -type d \( \
     -name ".git" -o \
     -name ".venv" -o \
-    -name "`__pycache__`" \
+    -name "__pycache__" \
   \) -prune -o \
   -type f \( \
     -name "*.py" -o \
@@ -105,7 +109,7 @@ $ find . \
   -type d \( \
     -name ".git" -o \
     -name ".venv" -o \
-    -name "`__pycache__`" \
+    -name "__pycache__" \
   \) -prune -o \
   -type f \( \
     -name "*.py" -o \
